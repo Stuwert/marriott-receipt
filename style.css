@@ -1,6 +1,7 @@
 table, tr, td{
 	margin-left, margin-right: 0;
-	width: 96%;
+	width: 100%;
+	border-spacing: 0;
 }
 
 .header {
@@ -9,11 +10,25 @@ table, tr, td{
 	position: fixed;
 	background-color: white;
 	z-index: 1;
+	padding-bottom: 2.5em;
 }
 
 section {
 	position: absolute;
 	margin-top: 25em;
+}
+
+.logo{
+	background-image: url(marriott-logo.jpg);
+	width: 80%;
+	margin-left: 27%;
+	background-repeat: no-repeat;
+	background-size: 60%;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
 }
 
 h1, h2, p {
@@ -27,7 +42,7 @@ h2{
 
 h3{
 	font-size: 3em;
-	margin: 0 0 .25em .25em;
+	margin: 0 0 .5em .25em;
 	text-align: left;
 }
 
@@ -35,15 +50,13 @@ h1 {
 	font-size: 10em;
 	margin-top: 2px;
 	margin-bottom: 0;
+	margin-right: -9999em;
 }
 
 td {
 	font-size: 3.5em;
 }
 
-table {
-	margin: 0 2%;
-}
 
 ul {
 	list-style: none;
@@ -51,18 +64,26 @@ ul {
 
 table p{
 	text-align: left;
-	margin: .5em 0;
+	margin: .5em .5em;
+	border: 0;
 }
 
 .total p{
 	font-size: 1.5em;
 	font-weight: bold;
+	color: #363635;
 }
 
 .reserve{
 	width: 60%;
 	margin-left: 20%;
-	background-color: red;
+	background-color: #BA2441;
+	border-radius: 25px;
+	border-style: 
+}
+
+.total {
+	background-color: #4C9F70;
 }
 
 .extras li {
@@ -70,11 +91,20 @@ table p{
 }
 
 .extras p{
-	font-size: 5em;
+	font-size: 4em;
+	color: #FFFBCF;
 }
-
 .amount p{
 	text-align: right;
+}
+
+.details td{
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.daily {
+	background-color: #ACB0BD;
 }
 
 .details {
