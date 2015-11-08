@@ -79,6 +79,10 @@ table p{
 	border: 0;
 }
 
+.top:hover{
+	background-color: #F3E8EE;
+}
+
 .total p{
 	font-size: 1.5em;
 	font-weight: bold;
